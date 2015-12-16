@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('about',function(){
     echo "This is about page.";
 });
+
+Route::get('contact',function(){
+    echo "This is contact page.";
+});
